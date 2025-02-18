@@ -461,7 +461,7 @@ Tu aventura ha terminado.
 (link: &quot;Empieza de nuevo&quot;)[(restart:)]</tw-passagedata><tw-passagedata pid="51" name="Merodear 4" tags="" position="2500,875" size="100,100">¿Dónde vas ahora?
 
 [[1. Vamos a la puerta grande-&gt;Encuentro con Begoña]]
-[[2. La puerta normal que me quedaba por visitar-&gt;Sala de espejos]]</tw-passagedata><tw-passagedata pid="52" name="Café y Botox" tags="" position="2800,900" size="100,100">(if:(history: where its tags contains &quot;Secretos-de-Estado&quot;)&#39;s length = 2)[Está claro que el documento que buscas está en el despacho de Pedro y que hay un camino secreto tras un escritorio en la sala del ordenador, al lado de su despacho, así que te diriges hacia allí sin demora.
+[[2. La puerta normal que me quedaba por visitar-&gt;Sala de espejos]]</tw-passagedata><tw-passagedata pid="52" name="Café y Botox" tags="" position="2800,900" size="100,100">(if:(history: where its tags contains &quot;Secretos-de-Estado&quot;)&#39;s length &gt; 1)[Está claro que el documento que buscas está en el despacho de Pedro y que hay un camino secreto tras un escritorio en la sala del ordenador, al lado de su despacho, así que te diriges hacia allí sin demora.
 [[Al despacho de Pedro, corre!-&gt;El despacho de Pedro]]]
 
 (if:(history: where its tags contains &quot;Secretos-de-Estado&quot;)&#39;s length &lt; 1)[Sabes que has escuchado algo importante, pero te faltan piezas por encajar. Te quedas pensando un rato, estrujándote los sesos sobre qué deberías hacer, deambulando por el complejo y, sin darte cuenta, entras en una sala.
